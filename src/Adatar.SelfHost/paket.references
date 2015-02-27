@@ -1,0 +1,5 @@
+topshelf.fsharp
+Serilog.Extras.Topshelf
+Serilog
+Serilog.Extras.FSharp
+statsdclient

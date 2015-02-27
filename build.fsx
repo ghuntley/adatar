@@ -32,17 +32,17 @@ let project = "Adatar"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "Adatar is a Active Directory microservice for employee photos, with optional fallback to Gravatar.com"
+let summary = "Adatar is a web microservice for retrieving employee photos."
 
 // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "Adatar is a Active Directory microservice for employee photos, with optional fallback to Gravatar.com"
+let description = "Adatar is a web microservice for retrieving employee photos."
 
 // List of author names (for NuGet package)
 let authors = [ "Geoffrey Huntley" ]
 
 // Tags for your project (for NuGet package)
-let tags = "active-directory photo micro-service gravatar"
+let tags = "employee photo web micro-service gravatar active-directory exchange-ews azure-active-directory"
 
 // File system information 
 let solutionFile  = "Adatar.sln"
@@ -56,7 +56,7 @@ let gitOwner = "ghuntley"
 let gitHome = "https://github.com/" + gitOwner
 
 // The name of the project on GitHub
-let gitName = "Adatar"
+let gitName = "adatar"
 
 // The url for the raw files hosted
 let gitRaw = environVarOrDefault "gitRaw" "https://raw.github.com/ghuntley"

@@ -1,0 +1,4 @@
+Serilog
+Serilog.Extras.FSharp
+statsdclient
+http.fs

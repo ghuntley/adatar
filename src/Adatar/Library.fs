@@ -1,5 +1,10 @@
 namespace Adatar
 
+#if INTERACTIVE
+#r @"../../packages/StatsdClient/lib/net35/StatsdClient.dll";;
+#endif
+open StatsdClient
+
 /// Documentation for my library
 ///
 /// ## Example
@@ -9,8 +14,9 @@ namespace Adatar
 ///
 module Library = 
   
-  /// Returns 42
+  Metrics.Counter("stat-name")
   ///
+  /// Returns 42
   /// ## Parameters
   ///  - `num` - whatever
   let hello num = 42
